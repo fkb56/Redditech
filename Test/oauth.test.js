@@ -3,6 +3,7 @@ import {accessToken, auth} from "../Routes/Reddit/OAuth.route";
 
 let code;
 
+
 describe("auth", () => {
     it("should return a valid authorization URL", () => {
         const expectedUrl =
